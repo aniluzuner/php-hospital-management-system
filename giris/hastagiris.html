@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row justify-content-center align-items-center" style="height: 100vh;">
+    <div class="formdiv col-4 bg-white p-5">
+      <a href="index.php"> <img class="d-flex m-auto mb-3" src="images/logo.png" width="100%"> </a>
+      <form action="islem.php" method="post">
+        <label class="form-label mt-4 ms-1">TC Kimlik No</label>
+        <input class="form-control" type="text" name="hasta_Tc" maxlength="11" pattern="[0-9]{11}" required>
+
+        <label class="form-label mt-4 ms-1">Şifre</label>
+        <input class="form-control "type="password" name="hasta_sifre" required>
+
+        <button class="btn btn-danger mt-4" type="submit" name="giris_yap"> Giriş Yap </button>
+      </form>
+    </div>
+  </div>
+</div>
